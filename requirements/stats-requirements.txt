@@ -1,0 +1,4 @@
+pandas
+matplotlib
+google-cloud-bigquery
+db-dtypes

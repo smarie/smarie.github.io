@@ -1,0 +1,88 @@
+# .github/workflows/base.yml
+name: Build
+on:
+  # this one is to trigger the workflow manually from the interface
+  workflow_dispatch:
+
+  push:
+    tags:
+      - '*'
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  build_doc:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install python 3.9 for nox
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: Install noxfile requirements
+        run: pip install -r noxfile-requirements.txt
+
+      - name: Build the doc including example gallery
+        run: nox -s docs -- build
+
+  publish_release:
+    needs: build_doc
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - name: GitHub context to debug conditional steps
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
+
+      - name: Checkout with no depth
+        uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: 0  # so that gh-deploy works
+          # persist-credentials: false  # see https://github.com/orgs/community/discussions/25702
+
+      - name: Install python 3.9 for nox
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      # 1) retrieve the reports generated previously
+      - name: Retrieve reports
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: reports_dir
+          path: ./docs/reports
+
+      # Nox install
+      - name: Install noxfile requirements
+        run: pip install -r noxfile-requirements.txt
+
+      # -------------- only on Ubuntu + MAIN PUSH (no pull request, no tag) -----------
+
+      # 5) Publish the doc and test reports
+      - name: \[not on TAG\] Publish documentation, tests and coverage reports
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads')  # startsWith(matrix.os,'ubuntu')
+        run: nox -s publish
+
+  delete-artifacts:
+    needs: publish_release
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - uses: kolpav/purge-artifacts-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          expire-in: 0 # Setting this to 0 will delete all artifacts
