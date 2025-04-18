@@ -1,4 +1,10 @@
 pandas
 matplotlib
+plotly
+# to export figures as png (optional)
+# See https://github.com/plotly/Kaleido/issues/134
+# related: See https://github.schneider-electric.com/AIHub-Common/pilot-python/issues/25
+kaleido==0.1.0.post1; platform_system == "Windows"
+kaleido>=0.2.1,<0.3; platform_system == "Linux"
 google-cloud-bigquery
 db-dtypes
