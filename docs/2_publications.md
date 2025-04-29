@@ -1,5 +1,10 @@
 # Scientific publications
 
+[![scholar_sma.svg](./assets/badges/scholar_sma.svg)](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ)
+
+Some of these publications are also on [HAL](https://hal.science/search/index/?q=*&authIdPerson_i=175361) and 
+[Google Scholar](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ).
+
 ## International
 
 ### Journals
@@ -57,7 +62,6 @@
 - [@hqe10]
 - [@handi08]
 
-
 ## Technical Standards
 
 - [@osgirfc08]
@@ -65,13 +69,13 @@
 
 ## Patents
 
-- Filed on 2024-11-08: 1011726.265us1 / 2024P00480 US03
-- Filed on 2024-11-08: 1011726.252us1 / 2024P00480 US02
-- Filed on 2024-11-08: 1011726.250us1 / 2024P00480 US01
-- Filed on 2024-07-29: 1011726.248us1 / 2024P00489 US02
-- Filed on 2024-07-29: 1011726.247us1 / 2024P00489 US01
-- Filed on 2024-07-29: 1011726.237us1 / 2024P00489 US
-- Filed on 2024-07-01: 1011726.236us1 / 2024P00480 US
+- *Filed on 2024-11-08: 1011726.265us1 / 2024P00480 US03*
+- *Filed on 2024-11-08: 1011726.252us1 / 2024P00480 US02*
+- *Filed on 2024-11-08: 1011726.250us1 / 2024P00480 US01*
+- *Filed on 2024-07-29: 1011726.248us1 / 2024P00489 US02*
+- *Filed on 2024-07-29: 1011726.247us1 / 2024P00489 US01*
+- *Filed on 2024-07-29: 1011726.237us1 / 2024P00489 US*
+- *Filed on 2024-07-01: 1011726.236us1 / 2024P00480 US*
 - [@elecmonitor]
 - [@icare]
 - [@gridopt]
