@@ -1,0 +1,12 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 1em;
+  border: 1px solid #fff;
+  z-index: 500;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
