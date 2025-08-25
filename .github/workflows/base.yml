@@ -25,10 +25,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install python 3.9 for nox
+      - name: Install python 3.11 for nox
         uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.11
           architecture: x64
 
       - name: Install noxfile requirements
@@ -52,10 +52,10 @@ jobs:
           fetch-depth: 0  # so that gh-deploy works
           # persist-credentials: false  # see https://github.com/orgs/community/discussions/25702
 
-      - name: Install python 3.9 for nox
+      - name: Install python 3.11 for nox
         uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.11
           architecture: x64
 
       # Nox install
