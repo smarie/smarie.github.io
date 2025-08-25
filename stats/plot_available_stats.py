@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 STATS_DIR = Path(__file__).parent
 DOCS_DIR = STATS_DIR.parent / "docs"
 STATS_DATA_DIR = STATS_DIR / "data"
-_DOCS_STATIC_DIR = DOCS_DIR / "_static"
+_DOCS_STATIC_DIR = DOCS_DIR / "assets"
 PLOTLY_JSONS_DIR = _DOCS_STATIC_DIR / "plotly"
 PLOTLY_PNGS_DIR = _DOCS_STATIC_DIR / "pngs"
 

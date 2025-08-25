@@ -8,3 +8,5 @@ mkdocs-bibtex
 # -e "C:\_dev\python_ws\_Libs_OpenSource\bibtextomd"
 # git+https://github.com/bryanwweber/bibtextomd.git
 # git+https://github.com/mbollmann/yabibf.git
+# -e "C:\_dev\python_ws\_Libs_OpenSource\mkdocs-plotly-plugin"
+# -e "C:\_dev\python_ws\_Libs_OpenSource\mkdocs-bibtex"

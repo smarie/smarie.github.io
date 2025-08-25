@@ -1,7 +1,13 @@
 # About me
 
+[![orcid_sma.svg](./assets/badges/orcid_sma.svg)](https://orcid.org/0000-0002-5929-1047)
 [![scholar_sma.svg](./assets/badges/scholar_sma.svg)](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ)
-[![github_sma.svg](./assets/badges/github_sma.svg)](https://github.com/smarie)
+[![github_sma2.svg](./assets/badges/github_sma2.svg)](https://github.com/smarie)
+[![Stack Overflow](https://img.shields.io/stackexchange/stackoverflow/r/7262247?style=flat&logo=stackoverflow&label=stackoverflow&color=F58025)](https://stackoverflow.com/users/7262247/smarie)
+[![Math StackExchange](https://img.shields.io/stackexchange/math.stackexchange/r/769194?style=flat&logo=stackexchange&label=math.stackexchange&color=F58025)](https://math.stackexchange.com/users/769194/smarie)
+[![Stats StackExchange](https://img.shields.io/stackexchange/stats.stackexchange/r/161429?style=flat&logo=stackexchange&label=stats.stackexchange&color=F58025)](https://stats.stackexchange.com/users/161429/smarie?tab=answers)
+
+## Current position
 
 I am currently a senior machine learning expert and data science manager at Schneider Electric's 
 [Artificial Intelligence Hub](https://www.se.com/ww/en/work/solutions/artificial-intelligence/hub.jsp) in Grenoble, 
@@ -37,7 +43,7 @@ platform](https://exchange.se.com/).
 
 ## Before Schneider Electric
 
-Before joining Schneider Electric, I received my General Engineering degree from CentraleSupelec (Paris) and a MSc 
-in Machine Learning from UCL (London) in 2005 - with a thesis on Automated Medical Diagnosis using Semi-Supervised 
-Learning, an internship on Robotic Tele-echography force-feedback, and a junior enterprise customer project on truck 
-loading optimization. 
+Before joining Schneider Electric, I received my General Engineering degree from [CentraleSupelec](https://www.
+centralesupelec.fr/) (Paris) and a MSc in Machine Learning from [UCL](https://www.ucl.ac.uk/) (London) in 2005 - 
+with a thesis on Automated Medical Diagnosis using Semi-Supervised Learning, an internship on Robotic 
+Tele-echography force-feedback, and a junior enterprise customer project on truck loading optimization. 

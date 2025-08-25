@@ -1,0 +1,72 @@
+site_name: Sylvain Marié
+site_description: 'About me'
+repo_url: https://github.com/smarie/smarie.github.io/
+#docs_dir: .
+#site_dir: ../site
+# default branch is main instead of master now on github
+edit_uri : ./edit/main/docs
+
+extra:
+  tags:
+    Conference: conf
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+#  logo: assets/pngs/sma.png
+  name: material
+  custom_dir: overrides
+#  font:
+#    text: Arial
+#  features:
+#    - navigation.instant
+  palette:
+    primary: light blue
+#    accent: green
+  icon:
+    tag:
+      conf: simple/slideshare
+
+nav:
+  - Short bio: index.md
+  # - Scientific Publications: bib/papers.md
+  - Publications : 2_publications.md
+  - Open source : 3_code.md
+#  - Standards and patents : 4_standards_patents.md
+  - Teaching : 4_teaching.md
+
+plugins:
+  - search
+  - plotly:
+      lib_path: assets/plotly-3.0.1.min.js  # https://cdn.plot.ly/plotly-3.0.1.min.js
+  - tags
+  - bibtex:
+      bib_file: docs/bib/papers.bib
+      enable_inline_citations: true
+      csl_file: docs/bib/apa_verbose.csl
+#      csl_file: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
+      bib_by_default: false
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.snippets:
+      base_path: [ 'docs' ]
+  - pymdownx.superfences:
+      custom_fences:
+        - name: plotly
+          class: mkdocs-plotly
+          format: !!python/name:mkdocs_plotly_plugin.fences.fence_plotly
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+#  - pymdownx.arithmatex:
+#      generic: true
+  - toc:
+      permalink: true
+
+#extra_javascript:
+#  - javascripts/mathjax.js
+#  - https://polyfill.io/v3/polyfill.min.js?features=es6
+#  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
