@@ -39,7 +39,7 @@ Energy model of a building](https://pastel.hal.science/tel-04940549), directed b
   directed by Florence Forbes (INRIA Grenoble), co-supervised with Stéphane Girard (INRIA).  
   *Publications:
   [MLSS](2_publications.md#mlss17), [IFSS](2_publications.md#ifss18), [JFRB](2_publications.md#jfrb18), 
-  [ECML-PKDD](2_publications.md#ecml23)*
+  [ECML-PKDD](2_publications.md#ecml22)*
 - 2013-16, Cao Tri Do, [Multi-modal and Multi-scale temporal metric learning for robust nearest neighbors classification](https://tel.archives-ouvertes.fr/tel-01678889), 
   co-directed by Ahlame Douzal (LIG) and Michèle Rombaut (GIPSA-lab).  
   *Publications:
