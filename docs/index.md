@@ -5,7 +5,7 @@
 [![github_sma2.svg](./assets/badges/github_sma2.svg)](https://github.com/smarie)
 [![Stack Overflow](https://img.shields.io/stackexchange/stackoverflow/r/7262247?style=flat&logo=stackoverflow&label=stackoverflow&color=F58025)](https://stackoverflow.com/users/7262247/smarie)
 [![Math StackExchange](https://img.shields.io/stackexchange/math.stackexchange/r/769194?style=flat&logo=stackexchange&label=math.stackexchange&color=F58025)](https://math.stackexchange.com/users/769194/smarie)
-[![Stats StackExchange](https://img.shields.io/stackexchange/stats.stackexchange/r/161429?style=flat&logo=stackexchange&label=stats.stackexchange&color=F58025)](https://stats.stackexchange.com/users/161429/smarie?tab=answers)
+[![Stats StackExchange](https://img.shields.io/stackexchange/stats.stackexchange/r/161429?style=flat&logo=stackexchange&label=stats.stackexchange&color=F58025)](https://stats.stackexchange.com/users/161429/smarie)
 
 ## Current position
 
