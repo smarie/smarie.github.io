@@ -1,6 +1,7 @@
 # Scientific publications
 
 [![orcid_sma.svg](./assets/badges/orcid_sma.svg)](https://orcid.org/0000-0002-5929-1047)
+[![IEEE](https://img.shields.io/badge/IEEE-senior%20member-00629B?style=flat&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37085648770)
 [![scholar_sma.svg](./assets/badges/scholar_sma.svg)](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ)
 
 Most of these publications are also on [HAL](https://hal.science/search/index/?q=*&authIdPerson_i=175361) and 
