@@ -57,6 +57,8 @@ def publish(session: nox.Session):
     """Deploy the docs+reports on github pages. Note: this rebuilds the docs"""
     session.install("-r", "requirements/docs-requirements.txt")
 
+    session.run("pip", "freeze")
+
     # possibly rebuild the docs in a static way (mkdocs serve does not build locally)
     session.run("mkdocs", "build")
 
