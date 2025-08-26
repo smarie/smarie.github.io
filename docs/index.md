@@ -1,8 +1,10 @@
 # About me
 
 [![orcid_sma.svg](./assets/badges/orcid_sma.svg)](https://orcid.org/0000-0002-5929-1047)
-[![IEEE](https://img.shields.io/badge/IEEE-senior%20member-00629B?style=flat&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37085648770)
 [![scholar_sma.svg](./assets/badges/scholar_sma.svg)](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ)
+[![RG](https://img.shields.io/badge/ResearchGate-Sylvain--Marie--3-00CCBB?style=flat&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Sylvain-Marie-3)
+[![HAL](https://img.shields.io/badge/HAL-sylvain--marie-B03532?style=flat&logo=hal&logoColor=white)](https://cv.hal.science/sylvain-marie)
+[![IEEE](https://img.shields.io/badge/IEEE-senior%20member-00629B?style=flat&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37085648770)
 [![github_sma2.svg](./assets/badges/github_sma2.svg)](https://github.com/smarie)
 [![Stack Overflow](https://img.shields.io/stackexchange/stackoverflow/r/7262247?style=flat&logo=stackoverflow&label=stackoverflow&color=F58025)](https://stackoverflow.com/users/7262247/smarie)
 [![Math StackExchange](https://img.shields.io/stackexchange/math.stackexchange/r/769194?style=flat&logo=stackexchange&label=math.stackexchange&color=F58025)](https://math.stackexchange.com/users/769194/smarie)

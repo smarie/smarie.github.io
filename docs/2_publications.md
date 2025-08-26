@@ -1,8 +1,10 @@
 # Scientific publications
 
 [![orcid_sma.svg](./assets/badges/orcid_sma.svg)](https://orcid.org/0000-0002-5929-1047)
-[![IEEE](https://img.shields.io/badge/IEEE-senior%20member-00629B?style=flat&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37085648770)
 [![scholar_sma.svg](./assets/badges/scholar_sma.svg)](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ)
+[![RG](https://img.shields.io/badge/ResearchGate-Sylvain--Marie--3-00CCBB?style=flat&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Sylvain-Marie-3)
+[![HAL](https://img.shields.io/badge/HAL-sylvain--marie-B03532?style=flat&logo=hal&logoColor=white)](https://cv.hal.science/sylvain-marie)
+[![IEEE](https://img.shields.io/badge/IEEE-senior%20member-00629B?style=flat&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/37085648770)
 
 Most of these publications are also on [HAL](https://hal.science/search/index/?q=*&authIdPerson_i=175361) and 
 [Google Scholar](https://scholar.google.fr/citations?user=PRZ7h8sAAAAJ).
