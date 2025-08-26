@@ -60,7 +60,7 @@ def publish(session: nox.Session):
     session.run("pip", "freeze")
 
     # possibly rebuild the docs in a static way (mkdocs serve does not build locally)
-    session.run("mkdocs", "build")
+    session.run("mkdocs", "build", "-v")
 
     # publish the docs
     session.run("mkdocs", "gh-deploy")
