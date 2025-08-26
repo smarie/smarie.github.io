@@ -55,12 +55,13 @@ def stats(session: nox.Session):
 @nox.session(python="3.11")
 def publish(session: nox.Session):
     """Deploy the docs+reports on github pages. Note: this rebuilds the docs"""
-    session.install("-r", "requirements/docs-requirements.txt")
 
+    # Install all requirements
+    session.install("-r", "requirements/docs-requirements.txt")
     session.run("pip", "freeze")
 
     # possibly rebuild the docs in a static way (mkdocs serve does not build locally)
-    session.run("mkdocs", "build", "-v")
+    session.run("mkdocs", "build", )
 
     # publish the docs
     session.run("mkdocs", "gh-deploy")

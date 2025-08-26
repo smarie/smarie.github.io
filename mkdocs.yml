@@ -46,7 +46,9 @@ plugins:
       enable_inline_citations: true
       csl_file: docs/bib/apa_verbose.csl
 #      csl_file: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-6th-edition.csl
-      bib_by_default: false
+      bib_by_default: true
+      # insert_footnotes: true   footnotes refs are inserted if we use [@ ], so let's use @
+      # footnote_format:
 
 markdown_extensions:
   - attr_list

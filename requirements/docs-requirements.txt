@@ -4,7 +4,7 @@ mkdocs-plotly-plugin
 pymdown-extensions
 pygments
 pypandoc_binary
-mkdocs-bibtex==4.2.3
+mkdocs-bibtex
 # -e "C:\_dev\python_ws\_Libs_OpenSource\bibtextomd"
 # git+https://github.com/bryanwweber/bibtextomd.git
 # git+https://github.com/mbollmann/yabibf.git
