@@ -64,4 +64,4 @@ def publish(session: nox.Session):
     session.run("mkdocs", "build")
 
     # publish the docs
-    # session.run("mkdocs", "gh-deploy")
+    session.run("mkdocs", "gh-deploy")
