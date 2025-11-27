@@ -24,9 +24,8 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 
 ### Conference proceedings
 
-1. Fakhreddine Ababsa, Esma Yahia, Zhiyu Zheng, Rani El Meouche, Elham Farazdaghi, Sylvain Marié, 
-  Enhancing Digital Continuity and Interoperability in Building Energy Management: A Digital Twin Approach with Large Language Models, 
-  11th International Conference on Control, Decision and Information Technologies (CoDIT), Split, Croatia, 2025
+1. @sthbdaa25
+1. @codit25
   {: #codit25 }
 1. @topoisgt
 1. @psgretaltars23
@@ -66,6 +65,7 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 
 ### Preprints
 
+1. @sthproof25
 1. @semiml05
 
 
