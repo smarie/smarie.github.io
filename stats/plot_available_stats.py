@@ -55,6 +55,7 @@ assert len(ALL_PROJECTS_INCL_OBSOLETES) == 29
 def plot_stats():
     all_dfs_lst = []
     for f in STATS_DATA_DIR.glob("all*.csv"):
+        print(f"Reading {f}")
         df = pd.read_csv(f, index_col=[0])
         all_dfs_lst.append(df)
 
@@ -64,6 +65,7 @@ def plot_stats():
     # remove last month since it is incomplete
     not_last_month = all_dfs['date'] < all_dfs['date'].max()
     all_dfs = all_dfs.loc[not_last_month]
+    last_complete_month = all_dfs['date'].max().month
 
     del all_dfs['yyyymm']
     # def map_obsoletes(val):
@@ -112,10 +114,13 @@ def plot_stats():
     # Plot 1 - totals per package since 2016
     plot1_totals_per_pkg_since_2016(downloads_totals, pkg_names=pkg_names)
 
+    # Remove last (incomplete) year if needed
+    if last_complete_month < 12:
+        print(f"Removing last year of data {int(downloads_yearly_df.index[-1])} for yearly totals as it is incomplete")
+        downloads_yearly_df = downloads_yearly_df.iloc[:-1]
+
     # Plot 2a - totals per year (all pkgs together)
     downloads_yearly_total = downloads_yearly_df[all_projects_incl_obsoletes_sorted].sum(axis=1)
-    # Remove last (incomplete) year
-    downloads_yearly_total = downloads_yearly_total.iloc[:-1]
     plot2_yearly_totals(downloads_yearly_total)
 
     # html_str = fig.to_html(DOCS_STATIC_DIR / "YearlyTotals.html")  # for us to check the plotly.js version
@@ -257,7 +262,7 @@ def plot2b_yearly_per_pkg(downloads_yearly_df, pkg_names: PkgNames, nb_proj_high
 
     fig = go.Figure()
     for p in highlighted_pkgs:
-        _proj_yearly_series = downloads_yearly_df[p].iloc[:-1]
+        _proj_yearly_series = downloads_yearly_df[p]
         fig.add_trace(go.Bar(
             name=p,
             # Convert to string to avoid the issue with xticks not displaying in the mkdocs final html
@@ -270,7 +275,7 @@ def plot2b_yearly_per_pkg(downloads_yearly_df, pkg_names: PkgNames, nb_proj_high
             ])
         ))
 
-    rest_data = downloads_yearly_df[rest_names].sum(axis=1).iloc[:-1]
+    rest_data = downloads_yearly_df[rest_names].sum(axis=1)
     fig.add_trace(go.Bar(
         name=f"Other {nb_rest_pkgs} pkgs",
         x=rest_data.index,

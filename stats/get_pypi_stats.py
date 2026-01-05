@@ -12,7 +12,7 @@ from plot_available_stats import ALL_PROJECTS_INCL_OBSOLETES
 
 
 STATS_DATA_DIR = Path(__file__).parent / "data"
-ALL_YEARS = tuple(range(2025, 2015, -1))
+ALL_YEARS = tuple(range(2026, 2015, -1))
 
 # Construct a BigQuery client object.
 client = bigquery.Client()
