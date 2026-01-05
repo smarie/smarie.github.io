@@ -82,6 +82,7 @@ I also contribute to other's codes. Below is an attempt to present both activiti
 
 ### Coach
 
+1. [`sphinx`](https://github.com/sphinx-doc/sphinx/pull/14101) intersphinx issue behind corporate proxy, 2025
 1. [`scikit-learn`](https://github.com/scikit-learn/scikit-learn/pull/31247) faster eigendecomposition for Isomap & 
   KernelPCA, 2025 (under finalization)
   {: #eigsh25 }
