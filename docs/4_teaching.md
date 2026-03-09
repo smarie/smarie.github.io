@@ -24,7 +24,8 @@ Energy model of a building](https://pastel.hal.science/tel-04940549), directed b
   Métiers), co-supervised with Rani El Meouche (ESTP), Esma Yahia (Arts et Métiers), Elham Farazdaghi (ESTP), Patrick 
   Béguery (Schneider Electric) and Trinidad Chardin-Segui (Schneider Electric). Under the umbrella of
   [Digital twin's chair](https://www.estp.fr/chaire-jumeaux-numeriques-de-la-construction-et-des-infrastructures-dans-leur-environnement).  
-  *Publications: [CoDIT](2_publications.md#codit25), [E&B journal](2_publications.md#enb25)*
+  *Publications: [CoDIT](2_publications.md#codit25), [E&B journal](2_publications.md#enb25), 
+  [Automation in Construction](2_publications.md#aicrag26)*
 - 2019-23, Lucas Albarede, [Passage Retrieval in Standardization Documents](https://theses.fr/2023GRALM012), 
   directed by Philippe Mulhem (LIG), co-supervised with Lorraine Goeriot (LIG), Claude Le Pape (Schneider Electric) 
   and Trinidad Chardin-Segui (Schneider Electric). Under the umbrella of
