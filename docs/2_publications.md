@@ -101,10 +101,11 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 1. *Filed on 2024-11-08: 1011726.265us1 / 2024P00480 US03*
 1. *Filed on 2024-11-08: 1011726.252us1 / 2024P00480 US02*
 1. *Filed on 2024-11-08: 1011726.250us1 / 2024P00480 US01*
-1. *Filed on 2024-07-29: 1011726.248us1 / 2024P00489 US02*
-1. *Filed on 2024-07-29: 1011726.247us1 / 2024P00489 US01*
-1. *Filed on 2024-07-29: 1011726.237us1 / 2024P00489 US*
-1. *Filed on 2024-07-01: 1011726.236us1 / 2024P00480 US*
+
+1. @tagai_class_assets
+1. @tagai_mass_eqpts
+2. @tagai_mass_pts
+1. @alarmai_nuisance
 1. @elecmonitor
 1. @icare
 1. @gridopt
