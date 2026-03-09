@@ -1421,7 +1421,8 @@
         </group>
       </if>
       <else>
-        <text variable="references" prefix="(" suffix=")"/>
+        <!-- HACK SMA For patents we'll use the note field. See https://github.com/jgm/citeproc/issues/176#issuecomment-4023897267-->
+        <text variable="note" prefix="(" suffix=")" font-style="italic"/>
       </else>
     </choose>
   </macro>
