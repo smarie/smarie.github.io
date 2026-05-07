@@ -26,6 +26,7 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 
 ### Conference proceedings
 
+1. @codit26
 1. @sthbdaa25
 1. @codit25
   {: #codit25 }
@@ -70,7 +71,9 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 1. @sthproof25
 1. @semiml05
 
+### Datasets
 
+1. @bmsalarms2026
 
 ## National
 
