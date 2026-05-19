@@ -164,42 +164,54 @@ abstract = {This paper presents an exploration of the usage of Heterogeneous Gra
 }
 
 @article{mmlis,
-title = {Multi-modal and multi-scale temporal metric learning for a robust time series nearest neighbors classification},
-journal = {Information Sciences},
-volume = {418-419},
-pages = {272-285},
-year = {2017},
-issn = {0020-0255},
-doi = {10.1016/j.ins.2017.08.020},
-url = {https://www.sciencedirect.com/science/article/pii/S0020025517308721},
-author = {Cao-Tri Do and Ahlame Douzal-Chouakria and Sylvain Marié and Michèle Rombaut and Saeed Varasteh},
-keywords = {Metric learning, Time series, Classification, NN, Svm, Dissimilarity space, Multi-modal metric, Multi-scale metric},
-abstract = {The definition of a metric between time series is inherent to several data analysis and mining tasks, including clustering, classification or forecasting. Time series data present naturally several modalities covering their amplitude, behavior or frequential spectrum, that may be expressed with varying delays and at multiple temporal scales—exhibited globally or locally. Combining several modalities at multiple temporal scales to learn a holistic metric is a key challenge for many real temporal data applications. This paper proposes a Multi-modal and Multi-scale Temporal Metric Learning (m2tml) approach for a robust time series nearest neighbors classification. The solution lies in embedding time series into a dissimilarity space where a pairwise svm is used to learn both linear and non linear combined metric. A sparse and interpretable variant of the solution shows the ability of the learned temporal metric to localize accurately discriminative modalities as well as their temporal scales. A wide range of 30 public and challenging datasets, encompassing images, traces and ecg data, are used to show the efficiency and the potential of m2tml for an effective time series nearest neighbors classification.}
+  title = {Multi-modal and multi-scale temporal metric learning for a robust time series nearest neighbors classification},
+  journal = {Information Sciences},
+  volume = {418-419},
+  pages = {272-285},
+  year = {2017},
+  issn = {0020-0255},
+  doi = {10.1016/j.ins.2017.08.020},
+  url = {https://www.sciencedirect.com/science/article/pii/S0020025517308721},
+  author = {Cao-Tri Do and Ahlame Douzal-Chouakria and Sylvain Marié and Michèle Rombaut and Saeed Varasteh},
+  keywords = {Metric learning, Time series, Classification, NN, Svm, Dissimilarity space, Multi-modal metric, Multi-scale metric},
+  abstract = {The definition of a metric between time series is inherent to several data analysis and mining tasks, including clustering, classification or forecasting. Time series data present naturally several modalities covering their amplitude, behavior or frequential spectrum, that may be expressed with varying delays and at multiple temporal scales—exhibited globally or locally. Combining several modalities at multiple temporal scales to learn a holistic metric is a key challenge for many real temporal data applications. This paper proposes a Multi-modal and Multi-scale Temporal Metric Learning (m2tml) approach for a robust time series nearest neighbors classification. The solution lies in embedding time series into a dissimilarity space where a pairwise svm is used to learn both linear and non linear combined metric. A sparse and interpretable variant of the solution shows the ability of the learned temporal metric to localize accurately discriminative modalities as well as their temporal scales. A wide range of 30 public and challenging datasets, encompassing images, traces and ecg data, are used to show the efficiency and the potential of m2tml for an effective time series nearest neighbors classification.}
 }
 
 # International confs
+
+# Example from     pandoc/test/command/biblatex-salam.md
+
+@InProceedings{codit26,
+  title = {Efficient periodicity analysis of irregular alarm event timeseries, application to building management system alarms},
+  author = {Marié, Sylvain and Verdière, Mathias and Knecht, Pablo and Norman, Benjamin},
+  booktitle = {International Conference on Control, Decision and Information Technologies (CoDIT)},
+  venue = {Bari, Italy},
+  year = {2026},
+  month = {Jul},
+}
 
 @InProceedings{sthbdaa25,
   author={Marié, Sylvain and Knecht, Pablo},
   booktitle={1st International Conference on Big Data Analytics and Applications (BDAA' 2025)},
   title={A Selective Temporal Hamming distance to find patterns in state transition event timeseries, at scale},
+  venue = {Innsbruck, Austria},
   year={2025},
+  month={Oct},
   volume={},
   number={},
   pages={},
   url={https://hal.science/hal-05383600},
-  venue = {Innsbruck, Austria}
 }
 
 @InProceedings{codit25,
-  TITLE = {Enhancing Digital Continuity and Interoperability in Building Energy Management: A Digital Twin Approach with Large Language Models},
-  AUTHOR = {Ababsa, Fakhreddine and Zheng, Zhiyu and Yahya, Esma and Farazdaghi, Elham and El Meouche, Rani and Marié, Sylvain},
-  URL = {https://hal.science/hal-05249538},
-  BOOKTITLE = {International Conference on Control, Decision and Information Technologies (CoDIT)},
-  ADDRESS = {Split, Croatia},
-  YEAR = {2025},
-  MONTH = Jul,
-  KEYWORDS = {Digital twin ; Large language Models LLMs ; Interoperabilitty ; Smart Building},
+  title = {Enhancing Digital Continuity and Interoperability in Building Energy Management: A Digital Twin Approach with Large Language Models},
+  author = {Ababsa, Fakhreddine and Zheng, Zhiyu and Yahya, Esma and Farazdaghi, Elham and El Meouche, Rani and Marié, Sylvain},
+  booktitle = {International Conference on Control, Decision and Information Technologies (CoDIT)},
+  venue = {Split, Croatia},
+  year = {2025},
+  month = {Jul},
+  keywords = {Digital twin ; Large language Models LLMs ; Interoperabilitty ; Smart Building},
+  url = {https://hal.science/hal-05249538},
   HAL_ID = {hal-05249538},
   HAL_VERSION = {v1},
 }
@@ -208,13 +220,14 @@ abstract = {The definition of a metric between time series is inherent to severa
   author={Bossard, Victor and Joyeux, Lena and Marié, Sylvain and Pham, Thi Thu Ha and Vautrin, Regis and Mugnier, Carl and Lagarde, Theo and Ignatova, Vanya},
   booktitle={2023 IEEE PES Innovative Smart Grid Technologies Europe (ISGT EUROPE)},
   title={Impact of line length, EV and PV on LV Grid topology identification based on voltage correlation},
+  venue = {Grenoble, France},
   year={2023},
+  month={Oct},
   volume={},
   number={},
   pages={1-5},
   keywords={Correlation;Network topology;Europe;Clustering algorithms;Transformers;Topology;Task analysis;LV Distribution Grid;phase identification;feeder identification;topology;voltage correlation;Electrical Vehicles;Photovoltaic systems},
   doi={10.1109/ISGTEUROPE56780.2023.10407221},
-  venue = {Grenoble, France}
 }
 
 
@@ -222,96 +235,103 @@ abstract = {The definition of a metric between time series is inherent to severa
   title={Entity Enhanced Attention Graph-Based Passages Retrieval},
   author={Lucas Albarede and Lorraine Goeuriot and Philippe Mulhem and Claude Le Pape-Gardeux and Sylvain Mari{\'e} and Trinidad Chardin-Segui},
   booktitle={2nd Workshop on Augmented Intelligence in Technology-Assisted Review Systems (ALTARS), ECIR 2023},
+  venue = {Dublin, Ireland},
   year={2023},
+  month={Jun},
   url={https://altars2023.dei.unipd.it/abstracts/mulhem1.pdf},
   doi={10.1007/978-3-031-28241-6_41},
-  venue = {Dublin, Ireland}
 }
 
 # editor = {Amini, Massih-Reza and Canu, St{\'e}phane and Fischer, Asja and Guns, Tias and Kralj Novak, Petra and Tsoumakas, Grigorios},
 @InProceedings{qdsbnslecml22,
-author = {Rahier, Thibaud and Mari{\'e}, Sylvain and Forbes, Florence},
-title = {A Pre-screening Approach for Faster Bayesian Network Structure Learning},
-booktitle = {Machine Learning and Knowledge Discovery in Databases. ECML PKDD 2022. Lecture Notes in Computer Sciences,
-vol 13717},
-year = {2023},
-publisher = {Springer Nature Switzerland},
-address = {Cham},
-venue = {Grenoble, France},
-pages = {207--222},
-abstract = {Learning the structure of Bayesian networks from data is a NP-Hard problem that involves optimization over a super-exponential sized space. Still, in many real-life datasets a number of the arcs contained in the final structure correspond to strongly related pairs of variables and can be identified efficiently with information-theoretic metrics. In this work, we propose a meta-algorithm to accelerate any existing Bayesian network structure learning method. It contains an additional arc pre-screening step allowing to narrow the structure learning task down to a subset of the original variables, thus reducing the overall problem size. We conduct extensive experiments on both public benchmarks and private industrial datasets, showing that this approach enables a significant decrease in computational time and graph complexity for little to no decrease in performance score.},
-isbn = {978-3-031-26419-1},
-doi = {10.1007/978-3-031-26419-1_13}
+  author = {Rahier, Thibaud and Mari{\'e}, Sylvain and Forbes, Florence},
+  title = {A Pre-screening Approach for Faster Bayesian Network Structure Learning},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases. ECML PKDD 2022. Lecture Notes in Computer
+  Sciences},
+  venue = {Grenoble, France},
+  year = {2023},
+  month = {Sep},
+  volume = {13717},
+  pages = {207--222},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  abstract = {Learning the structure of Bayesian networks from data is a NP-Hard problem that involves optimization over a super-exponential sized space. Still, in many real-life datasets a number of the arcs contained in the final structure correspond to strongly related pairs of variables and can be identified efficiently with information-theoretic metrics. In this work, we propose a meta-algorithm to accelerate any existing Bayesian network structure learning method. It contains an additional arc pre-screening step allowing to narrow the structure learning task down to a subset of the original variables, thus reducing the overall problem size. We conduct extensive experiments on both public benchmarks and private industrial datasets, showing that this approach enables a significant decrease in computational time and graph complexity for little to no decrease in performance score.},
+  isbn = {978-3-031-26419-1},
+  doi = {10.1007/978-3-031-26419-1_13},
 }
 
 @InProceedings{iccie22,
-TITLE = {Validating Condition-Based Maintenance Algorithms through Simulation},
-AUTHOR = {Chevalier, Marcel and Dupont, L{\'e}o and Mari{\'e}, Sylvain and Roffet, Fr{\'e}d{\'e}rique and Stolyarova, Elena and Templier, William and Vasile, Costin},
-URL = {https://hal.science/hal-03854307},
-NOTE = {This is a pre-publication. The final paper is available on the ICCIE website at the URL below.},
-BOOKTITLE = {ICCIE 2022 : International Conference on Computers and Industrial Engineering},
-VENUE = {Stockholm, Sweden},
-YEAR = {2022},
-MONTH = Jul,
-KEYWORDS = {Incremental learning ; Degradation models ; Ageing ; Anomaly detection ; Soft Sensor},
-PDF = {https://hal.science/hal-03854307v1/file/ICCIE-22SE070163%5B4%5D-final.pdf},
-HAL_ID = {hal-03854307},
-HAL_VERSION = {v1},
+  title = {Validating Condition-Based Maintenance Algorithms through Simulation},
+  author = {Chevalier, Marcel and Dupont, L{\'e}o and Mari{\'e}, Sylvain and Roffet, Fr{\'e}d{\'e}rique and Stolyarova,  Elena and Templier, William and Vasile, Costin},
+  booktitle = {ICCIE 2022 : International Conference on Computers and Industrial Engineering},
+  venue = {Stockholm, Sweden},
+  year = {2022},
+  month = {Jul},
+  keywords = {Incremental learning ; Degradation models ; Ageing ; Anomaly detection ; Soft Sensor},
+  pdf = {https://hal.science/hal-03854307v1/file/ICCIE-22SE070163%5B4%5D-final.pdf},
+  HAL_ID = {hal-03854307},
+  HAL_VERSION = {v1},
+  url = {https://hal.science/hal-03854307},
+  note = {This is a pre-publication. The final paper is available on the ICCIE website at the URL below.},
 }
 
 # editor = {Hagen, Matthias and Verberne, Suzan and Macdonald, Craig and Seifert, Christin and Balog, Krisztian and N{\o}rv{\aa}g, Kjetil and Setty, Vinay},
 @InProceedings{psgretecir22,
-author = {Albarede, Lucas
-            and Mulhem, Philippe
-            and Goeuriot, Lorraine
-            and Le Pape-Gardeux, Claude
-            and Marié, Sylvain
-            and Chardin-Segui, Trinidad},
-title = {Passage Retrieval on Structured Documents Using Graph Attention Networks},
-booktitle = {Advances in Information Retrieval. ECIR 2022. LNCS, vol 13186},
-year = {2022},
-publisher = {Springer International Publishing},
-address = {Cham},
-venue = {Stavanger, Norway},
-pages = {13--21},
-abstract = {Passage Retrieval systems aim at retrieving and ranking small text units according to their estimated
-relevance to a query. A usual practice is to consider the context a passage appears in (its containing document,
-neighbour passages, etc.) to improve its relevance estimation. In this work, we study the use of Graph Attention Networks (GATs), a graph node embedding method, to perform passage contextualization. More precisely, we first propose a document graph representation based on several inter- and intra-document relations. Then, we investigate two ways of leveraging the use of GATs on this representation in order to incorporate contextual information for passage retrieval. We evaluate our approach on a Passage Retrieval task for structured documents: CLEF-IP2013. Our results show that our document graph representation coupled with the expressive power of GATs allows for a better context representation leading to improved performances.},
-isbn = {978-3-030-99739-7},
-doi = {10.1007/978-3-030-99739-7_2}
+  author = {Albarede, Lucas
+              and Mulhem, Philippe
+              and Goeuriot, Lorraine
+              and Le Pape-Gardeux, Claude
+              and Marié, Sylvain
+              and Chardin-Segui, Trinidad},
+  title = {Passage Retrieval on Structured Documents Using Graph Attention Networks},
+  booktitle = {Advances in Information Retrieval. ECIR 2022 . LNCS, vol 13186},
+  year = {2022},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  venue = {Stavanger, Norway},
+  pages = {13--21},
+  abstract = {Passage Retrieval systems aim at retrieving and ranking small text units according to their estimated
+  relevance to a query. A usual practice is to consider the context a passage appears in (its containing document,
+  neighbour passages, etc.) to improve its relevance estimation. In this work, we study the use of Graph Attention
+ Networks (GATs), a graph node embedding method, to perform passage contextualization. More precisely, we first propose a document graph representation based on several inter- and intra-document relations. Then, we investigate two ways of leveraging the use of GATs on this representation in order to incorporate contextual information for passage retrieval. We evaluate our approach on a Passage Retrieval task for structured documents: CLEF-IP2013. Our results show that our document graph representation coupled with the expressive power of GATs allows for a better context representation leading to improved performances.},
+  isbn = {978-3-030-99739-7},
+  doi = {10.1007/978-3-030-99739-7_2},
 }
 
 @InProceedings{pyconde22,
-author = {Marié, Sylvain},
-title = {`python-m5p` - M5 Prime regression trees in python, compliant with scikit-learn},
-booktitle = {PyConDE PyData 2022},
-year = {2022},
-url = {https://hal.archives-ouvertes.fr/hal-03762155},
-venue = {Berlin, Germany}
+  author = {Marié, Sylvain},
+  title = {`python-m5p` - M5 Prime regression trees in python, compliant with scikit-learn},
+  booktitle = {PyConDE PyData 2022},
+  venue = {Berlin, Germany},
+  year = {2022},
+  month = {Apr},
+  url = {https://hal.archives-ouvertes.fr/hal-03762155},
 }
 
 @InProceedings{europy21,
-author = {Marié, Sylvain},
-title = {Powerful tests and reproducible benchmarks with `pytest-cases`},
-booktitle = {EuroPython 2021},
-year = {2021},
-url = {https://hal.archives-ouvertes.fr/hal-03596668},
-venue = {online}
+  author = {Marié, Sylvain},
+  title = {Powerful tests and reproducible benchmarks with `pytest-cases`},
+  booktitle = {EuroPython 2021},
+  year = {2021},
+  month = {Jul},
+  url = {https://hal.archives-ouvertes.fr/hal-03596668},
+  venue = {online},
 }
 
 @InProceedings{cigiqual21,
-author = {Chevalier, Marcel
+  author = {Chevalier, Marcel
             and Marié, Sylvain
             and Boguslawski, Bartosz
             and Cercueil, Michel
             and Chupot, François
             and Vignon, Antoine
             and Youssef, Wedian},
-title = {Combining First Principles and Machine Learning for optimal maintenance of electrical assets},
-booktitle = {CIGI QUALITA 2021},
-year = {2021},
-venue = {Grenoble, France},
-url = {https://hal.archives-ouvertes.fr/hal-03320965}
+  title = {Combining First Principles and Machine Learning for optimal maintenance of electrical assets},
+  booktitle = {CIGI QUALITA 2021},
+  year = {2021},
+  month = {May},
+  venue = {Grenoble, France},
+  url = {https://hal.archives-ouvertes.fr/hal-03320965},
 }
 
 @InProceedings{psgretcoria21,
@@ -325,152 +345,175 @@ url = {https://hal.archives-ouvertes.fr/hal-03320965}
                Adrian{-}Gabriel Chifu},
   title     = {Passage retrieval in context: Experiments on Patents},
   booktitle = {COnf{\'{e}}rence en {R}echerche d'{I}nformations et {A}pplications - {CORIA}
-               2021, French Information Retrieval Conference, Grenoble, France, April
-               15, 2021},
+               2021, French Information Retrieval Conference},
+  venue = {Grenoble, France},
   publisher = {{ARIA}},
   year      = {2021},
+  month     = {Apr},
   url       = {https://tel.archives-ouvertes.fr/LIG/hal-03230421v1},
   doi       = {10.24348/coria.2021.long_4},
   timestamp = {Mon, 19 Jul 2021 11:40:22 +0200},
   biburl    = {https://dblp.org/rec/conf/coria/AlbaredeMGPMC21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  bibsource = {dblp computer science bibliography, https://dblp.org},
 }
 
 @article{ clima19,
-	author = {{Gao, Tianyun}
+  author = {{Gao, Tianyun}
     and {Boguslawski, Bartosz}
     and {Marié, Sylvain}
     and {Béguery, Patrick}
     and {Thebault, Simon}
     and {Lecoeuche, Stéphane}},
-	title = {Data mining and data-driven modelling for Air Handling Unit fault detection},
-	DOI= "10.1051/e3sconf/201911105009",
-	url= "https://doi.org/10.1051/e3sconf/201911105009",
-	journal = {CLIMA 2019 Congress. E3S Web Conf},
-	year = {2019},
-	month = {08},
-	volume = 111,
-	pages = "05009",
-	venue = {Bucharest, Romania}
+  title = {Data mining and data-driven modelling for Air Handling Unit fault detection},
+  DOI= "10.1051/e3sconf/201911105009",
+  url= "https://doi.org/10.1051/e3sconf/201911105009",
+  journal = {CLIMA 2019 Congress. E3S Web Conf},
+  venue = {Bucharest, Romania},
+  year = {2019},
+  month = {Aug},
+  volume = 111,
+  pages = "05009",
 }
 
 @InProceedings{mmlaaltd16springer,
-    author={Do, Cao-Tri
+  author={Do, Cao-Tri
     and Douzal-Chouakria, Ahlame
     and Marié, Sylvain
     and Rombaut, Michèle},
     editor={Douzal-Chouakria, Ahlame
     and Vilar, José A.
     and Marteau, Pierre-François},
-    title={A Multi-modal Metric Learning Framework for Time Series kNN Classification},
-    booktitle={International Workshop on Advanced Analysis and Learning on Temporal Data (AALTD). ECML PKDD 2015},
-    year={2016},
-	month = {08},
-	doi = {10.1007/978-3-319-44412-3_9},
-    publisher={Springer International Publishing},
-    address={Cham},
-    pages={131--143},
-    abstract={This work proposes a temporal and frequential metric learning framework for a time series nearest neighbor classification. For that, time series are embedded into a pairwise space where a combination function is learned based on a maximum margin optimization process. A wide range of experiments are conducted to evaluate the ability of the learned metric on time series kNN classification.},
-    isbn={978-3-319-44412-3}
+  title={A Multi-modal Metric Learning Framework for Time Series kNN Classification},
+  booktitle={International Workshop on Advanced Analysis and Learning on Temporal Data (AALTD). ECML PKDD 2015},
+  year={2016},
+  month = {Aug},
+  doi = {10.1007/978-3-319-44412-3_9},
+  publisher={Springer International Publishing},
+  address={Cham},
+  pages={131--143},
+  abstract={This work proposes a temporal and frequential metric learning framework for a time series nearest neighbor classification. For that, time series are embedded into a pairwise space where a combination function is learned based on a maximum margin optimization process. A wide range of experiments are conducted to evaluate the ability of the learned metric on time series kNN classification.},
+  isbn={978-3-319-44412-3},
 }
 
 @InProceedings{mmlaaltd15,
-    author={Do, Cao-Tri
+  author={Do, Cao-Tri
     and Douzal-Chouakria, Ahlame
     and Marié, Sylvain
     and Rombaut, Michèle},
-    title={Temporal and Frequential Metric Learning for Time Series kNN Classification},
-    booktitle={International Workshop on Advanced Analysis and Learning on Temporal Data (AALTD). ECML PKDD 2015},
-    year={2015},
-	month = {09},
-    publisher={CEUR-WS},
-    url={https://ceur-ws.org/Vol-1425/paper6.pdf}
+  title={Temporal and Frequential Metric Learning for Time Series kNN Classification},
+  booktitle={International Workshop on Advanced Analysis and Learning on Temporal Data (AALTD). ECML PKDD 2015},
+  venue={Porto, Portugal},
+  year={2015},
+  month = {Sep},
+  publisher={CEUR-WS},
+  url={https://ceur-ws.org/Vol-1425/paper6.pdf},
 }
 
 @inproceedings{mmleusipco15,
   author={Do, Cao-Tri and Douzal-Chouakria, Ahlame and Marié, Sylvain and Rombaut, Michèle},
   booktitle={23rd European Signal Processing Conference (EUSIPCO)},
   title={Multiple metric learning for large margin kNN classification of time series},
+  venue = {Nice, France},
   year={2015},
+  month={Aug},
   volume={},
   number={},
   pages={2346-2350},
   keywords={Time series analysis;Extraterrestrial measurements;Training;Niobium;Optimization;Europe;Multiple metric learning;Time series;kNN;Classification},
   doi={10.1109/EUSIPCO.2015.7362804},
-  address = {Nice, France}
 }
 
 @inproceedings{octminer12,
-author = {Marié, Sylvain and Zhang, Yaoyu},
-title = {An Octave Extension for Rapidminer},
-booktitle = {Proceedings of the 3rd RapidMiner Community Meeting and Conference (RCOMM), Aug 2012, Budapest,
-            Hungary},
-ISBN = {978-3-844-00995-8},
-year = {2012},
-url = {https://www.researchgate.net/publication/315844668_An_Octave_extension_for_RapidMiner}
+  author = {Marié, Sylvain and Zhang, Yaoyu},
+  title = {An Octave Extension for Rapidminer},
+  booktitle = {Proceedings of the 3rd RapidMiner Community Meeting and Conference (RCOMM)},
+  ISBN = {978-3-844-00995-8},
+  venue = {Budapest, Hungary},
+  year = {2012},
+  month = {Aug},
+  url = {https://www.researchgate.net/publication/315844668_An_Octave_extension_for_RapidMiner},
 }
 
 # doi of whole book : doi = {10.2759/52595}
 @inproceedings{homescib11,
-author = {La Tosa, Vincenzo and Marié, Sylvain and Bernier, Franck and Piette, Daniel},
-title = {Pervasive Energy Measurements for Buildings Monitoring},
-booktitle = {Proceedings of the 2nd Workshop organised by the eeBuilding (EEB) Data Models Community, International
-             Council for Research and Innovation in Building and Construction (CIB) Conference W078–W102, Oct 2011},
-venue = {Sophia Antipolis, France},
-pages = {138--150},
-ISBN = {978-3-844-00995-8},
-year = {2012},
-url = {https://hal.archives-ouvertes.fr/hal-03780603v1}
+  author = {La Tosa, Vincenzo and Marié, Sylvain and Bernier, Franck and Piette, Daniel},
+  title = {Pervasive Energy Measurements for Buildings Monitoring},
+  booktitle = {Proceedings of the 2nd Workshop organised by the eeBuilding (EEB) Data Models Community, International
+               Council for Research and Innovation in Building and Construction (CIB) Conference W078–W102, Oct 2011},
+  venue = {Sophia Antipolis, France},
+  year = {2012},
+  pages = {138--150},
+  ISBN = {978-3-844-00995-8},
+  url = {https://hal.archives-ouvertes.fr/hal-03780603v1},
 }
 
 @inproceedings{osgicom07,
-author = {Bottaro, André and Gérodolle, Anne and Marié, Sylvain},
-title = {Combining OSGi™ technology and Web Services to realize the plug’n play dream in home network},
-booktitle = {Proceedings of the 2007 OSGi™ Alliance Community event, June 2007, Munich, Germany},
-venue = {Munich, Germany},
-year = {2007},
-url = {https://www.osgi.org/osgi-community-event-2007}
+  author = {Bottaro, André and Gérodolle, Anne and Marié, Sylvain},
+  title = {Combining OSGi™ technology and Web Services to realize the plug’n play dream in home network},
+  booktitle = {Proceedings of the 2007 OSGi™ Alliance Community event},
+  venue = {Munich, Germany},
+  year = {2007},
+  month = {Jun},
+  url = {https://www.osgi.org/osgi-community-event-2007},
 }
 
 # International summer schools
 
 @inproceedings{ifss18,
-author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
-title = {Screening strong pairwise relationships for fast Bayesian network structure learning},
-booktitle = {2nd Italian-French Statistics Seminar (IFSS), 2018},
-venue = {Grenoble, France},
-year = {2018},
-url = {https://hal.science/hal-01941685/document}
+  author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
+  title = {Screening strong pairwise relationships for fast Bayesian network structure learning},
+  booktitle = {2nd Italian-French Statistics Seminar (IFSS)},
+  venue = {Grenoble, France},
+  year = {2018},
+  month = {Sep},
+  url = {https://hal.science/hal-01941685/document},
 }  # https://sites.google.com/view/bigworkshop/
 
 @inproceedings{mlss17,
-author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
-title = {Score-Based Bayesian Network Structure Learning In Presence Of (Quasi-)Deterministic Relations (Poster)},
-booktitle = {Machine Learning Summer School (MLSS), June 2017, Tübingen, Germany},
-venue = {Tübingen, Germany},
-year = {2017},
-url = {https://www.researchgate.net/publication/319356434_Score-Based_Bayesian_Network_Structure_Learning_In_Presence_Of_Quasi-Deterministic_Relations}
+  author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
+  title = {Score-Based Bayesian Network Structure Learning In Presence Of (Quasi-)Deterministic Relations (Poster)},
+  booktitle = {Machine Learning Summer School (MLSS)},
+  venue = {Tübingen, Germany},
+  year = {2017},
+  month = {Jun},
+  url = {https://www.researchgate.net/publication/319356434_Score-Based_Bayesian_Network_Structure_Learning_In_Presence_Of_Quasi-Deterministic_Relations},
 }  # http://mlss.tuebingen.mpg.de/2017
 
 # Preprints
 
 @misc{sthproof25,
-  TITLE = {Proof of metric properties for the Selective Temporal Hamming distance},
-  AUTHOR = {Marié, Sylvain},
-  URL = {https://hal.science/hal-05328460},
-  YEAR = {2025},
-  MONTH = Oct,
-  KEYWORDS = {discrete event systems ; multi-state ; transition ; alarm ; event ; finite state ; DES ; aperiodic ; STH ; distance ; metric ; similarity ; kernel ; Hamming ; Jaccard ; non-uniform ; categorical ; timeseries ; CTS ; temporal ; duration ; sequence},
+  title = {Proof of metric properties for the Selective Temporal Hamming distance},
+  author = {Marié, Sylvain},
+  url = {https://hal.science/hal-05328460},
+  year = {2025},
+  month = {Oct},
+  keywords = {discrete event systems ; multi-state ; transition ; alarm ; event ; finite state ; DES ; aperiodic ; STH ; distance ; metric ; similarity ; kernel ; Hamming ; Jaccard ; non-uniform ; categorical ; timeseries ; CTS ; temporal ; duration ; sequence},
   HAL_ID = {hal-05328460},
   HAL_VERSION = {v1},
 }
 
 @unpublished{semiml05,
-author = {Marié, Sylvain and Herbster, Mark},
-title = {On Convergence of the Method of Relaxations, an Application to Learning on a Graph},
-year = {2006},
-date = {2006-09-14},
-url = {https://hal.science/hal-02920470}
+  author = {Marié, Sylvain and Herbster, Mark},
+  title = {On Convergence of the Method of Relaxations, an Application to Learning on a Graph},
+  year = {2006},
+  month = {Sep},
+  date = {2006-09-14},
+  url = {https://hal.science/hal-02920470},
+}
+
+# Datasets
+
+@dataset{bmsalarms2026,
+  author       = {Verdière, Mathias and
+                  Knecht, Pablo and
+                  Marié, Sylvain},
+  title        = {BMS alarm timeseries with periodicity labels},
+  month        = {apr},
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.19855612},
+  url          = {https://doi.org/10.5281/zenodo.19855612},
 }
 
 # France
@@ -479,123 +522,136 @@ url = {https://hal.science/hal-02920470}
 
 # title = {Entity Enhanced Attention Graph-Based Passages Retrieval},
 @InProceedings{psgretcoria23,
-    title = {Récupération de passages basée sur un graphe d'attention amélioré par des entités},
-    author = {Albarede, Lucas  and Goeuriot, Lorraine  and Mulhem, Philippe  and Le Pape-Gardeux, Claude  and Marié,
-              Sylvain  and Chardin-Segui, Trinidad},
-    editor = {Zargayouna, Ha{\"i}fa},
-    booktitle = {Actes de CORIA-TALN 2023. Actes de la 18e Conf{\'e}rence en Recherche d`Information et Applications
-                 (CORIA)},
-    month = {6},
-    year = {2023},
-    address = {Paris, France},
-    publisher = {ATALA},
-    url = {https://aclanthology.org/2023.jeptalnrecital-coria.13/},
-    pages = {196--200},
-    abstract = {Passage retrieval is crucial in specialized domains where documents are long and complex, such as patents, legal documents, scientific reports, etc. We explore in this paper the integration of Entities and passages in Heterogeneous Attention Graph Models dedicated to passage retrieval. We use the two passage retrieval architectures based on re-ranking proposed in [1]. We experiment our proposal on the TREC CAR Y3 Passage Retrieval Task. The results obtained show an improvement over state-of-the-art techniques and proves the effectiveness of the approach. Our experiments also show the importance of using adequate parameters for such approach.}
+  title = {Récupération de passages basée sur un graphe d'attention amélioré par des entités},
+  author = {Albarede, Lucas  and Goeuriot, Lorraine  and Mulhem, Philippe  and Le Pape-Gardeux, Claude  and Marié,
+            Sylvain  and Chardin-Segui, Trinidad},
+  editor = {Zargayouna, Ha{\"i}fa},
+  booktitle = {Actes de CORIA-TALN 2023. Actes de la 18e Conf{\'e}rence en Recherche d`Information et Applications
+               (CORIA)},
+  venue = {Paris, France},
+  month = {Jun},
+  year = {2023},
+  publisher = {ATALA},
+  url = {https://aclanthology.org/2023.jeptalnrecital-coria.13/},
+  pages = {196--200},
+  abstract = {Passage retrieval is crucial in specialized domains where documents are long and complex, such as patents, legal documents, scientific reports, etc. We explore in this paper the integration of Entities and passages in Heterogeneous Attention Graph Models dedicated to passage retrieval. We use the two passage retrieval architectures based on re-ranking proposed in [1]. We experiment our proposal on the TREC CAR Y3 Passage Retrieval Task. The results obtained show an improvement over state-of-the-art techniques and proves the effectiveness of the approach. Our experiments also show the importance of using adequate parameters for such approach.},
 }
 
 @InProceedings{lambdamu22,
-author = {Chevalier, Marcel and Dupont, Léo and Marié, Sylvain and Roffet, Frédérique and Stolyarova, Elena
-          and Templier, William and Vasile, Costin},
-title = {Usage de la simulation pour valider des algorithmes d’optimisation de maintenance},
-booktitle = {Congrès Lambda Mu 23, October 2022, Paris, France},
-venue = {Paris, France},
-url = {https://hal.science/hal-03970682},
-year = {2022}
+  author = {Chevalier, Marcel and Dupont, Léo and Marié, Sylvain and Roffet, Frédérique and Stolyarova, Elena
+            and Templier, William and Vasile, Costin},
+  title = {Usage de la simulation pour valider des algorithmes d’optimisation de maintenance},
+  booktitle = {Congrès Lambda Mu 23},
+  venue = {Paris, France},
+  year = {2022},
+  month = {Oct},
+  url = {https://hal.science/hal-03970682},
 }
 
 @InProceedings{jfrb18,
-author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
-title = {Fast Bayesian Network Structure Learning using Quasi-Determinism Screening},
-booktitle = {JFRB 2018 - 9èmes Journées Francophones sur les Réseaux Bayésiens et les Modèles Graphiques Probabilistes,
-             May 2018, Toulouse, France},
-venue = {Toulouse, France},
-year = {2018},
-url = {https://hal.science/hal-01691217}
+  author = {Rahier, Thibaud and Marié, Sylvain and Girard, Stéphane and Forbes, Florence},
+  title = {Fast Bayesian Network Structure Learning using Quasi-Determinism Screening},
+  booktitle = {JFRB 2018 - 9èmes Journées Francophones sur les Réseaux Bayésiens et les Modèles Graphiques Probabilistes},
+  venue = {Toulouse, France},
+  year = {2018},
+  month = {May},
+  url = {https://hal.science/hal-01691217},
 }
 
 @inproceedings{rfia12,
-author = {Najmeddine, Hala and Suard, Frédéric and Jay, Arnaud and Marechal, Philippe and Marié, Sylvain},
-title = {Mesures de similarité pour l’aide à l’analyse des données énergétiques de bâtiments},
-booktitle = {RFIA 2012 (Reconnaissance des Formes et Intelligence Artificielle), Jan 2012, Lyon, France},
-venue = {Lyon, France},
-year = {2012},
-pages = {978-2-9539515-2-3},
-url = {https://hal.science/hal-00656546}
+  author = {Najmeddine, Hala and Suard, Frédéric and Jay, Arnaud and Marechal, Philippe and Marié, Sylvain},
+  title = {Mesures de similarité pour l’aide à l’analyse des données énergétiques de bâtiments},
+  booktitle = {RFIA 2012 (Reconnaissance des Formes et Intelligence Artificielle)},
+  venue = {Lyon, France},
+  year = {2012},
+  month = {Jan},
+  pages = {978-2-9539515-2-3},
+  url = {https://hal.science/hal-00656546},
 }
 
 @inproceedings{afia11,
-author = {Bonnard, François and Beguery, Patrick and Marié, Sylvain},
-title = {HOMES - Un programme collaboratif pour la performance énergétique et le confort des bâtiments},
-booktitle = {7e Plateforme AFIA 2011 (Association Française pour l’Intelligence Artificielle), Posters and
-            Demonstrators, May 2011, Chambéry, France},
-year = {2011},
-venue = {Chambéry, France},
-url = {https://hal.science/hal-03885015/}
+  author = {Bonnard, François and Beguery, Patrick and Marié, Sylvain},
+  title = {HOMES - Un programme collaboratif pour la performance énergétique et le confort des bâtiments},
+  booktitle = {7e Plateforme AFIA 2011 (Association Française pour l’Intelligence Artificielle), Posters and
+              Demonstrators},
+  venue = {Chambéry, France},
+  year = {2011},
+  month = {May},
+  url = {https://hal.science/hal-03885015/},
 }
 
 @inproceedings{ubimob06,
-author = {Baude, Françoise and Bottaro, André and Brun, Jean-Michel and Chazelet, Antonin and
-          Constancin, Arnaud and Donsez, Didier and Gurgen, Levent and Lalanda, Philippe and Legrand, Virginie
-          and Lestideau, Vincent and Marié, Sylvain and Marin, Cristina and Moreau, Alain and Olive, Vincent },
-title = {Extension de passerelles OSGi™ pour les domaines de la distribution électrique : Modèles et outils},
-booktitle = {Atelier OSGi™ des 3ème Journées Francophones Mobilité et Ubiquité, UbiMob, Sept 2006, Paris, France},
-year = {2006},
-url = {https://hal.science/hal-00097266}
+  author = {Baude, Françoise and Bottaro, André and Brun, Jean-Michel and Chazelet, Antonin and
+            Constancin, Arnaud and Donsez, Didier and Gurgen, Levent and Lalanda, Philippe and Legrand, Virginie
+            and Lestideau, Vincent and Marié, Sylvain and Marin, Cristina and Moreau, Alain and Olive, Vincent },
+  title = {Extension de passerelles OSGi™ pour les domaines de la distribution électrique : Modèles et outils},
+  booktitle = {Atelier OSGi™ des 3ème Journées Francophones Mobilité et Ubiquité, UbiMob},
+  venue = {Paris, France},
+  year = {2006},
+  month = {Sep},
+  url = {https://hal.science/hal-00097266},
 }
 
 # author = {Team HOMES},
 @inproceedings{ibs11,
-title = {Les solutions HOMES d'efficacité énergétique active testées et simulées sur sites réels: de 25 à 50% de gains
-         énergétiques},
-url = {http://www.ibs-event.com/documents/INTELLIGENT-BUILDING-SYSTEMS.pdf},
-booktitle = {Intelligent Building Systems (Posters, Demonstrators, and Panel talk), Salon IBS, Sept. 2011, Paris, France},
-year = {2011}
+  title = {Les solutions HOMES d'efficacité énergétique active testées et simulées sur sites réels: de 25 à 50% de gains
+           énergétiques},
+  url = {http://www.ibs-event.com/documents/INTELLIGENT-BUILDING-SYSTEMS.pdf},
+  booktitle = {Intelligent Building Systems (Posters, Demonstrators, and Panel talk), Salon IBS},
+  venue = {Paris, France},
+  year = {2011},
+  month = {Sep},
 }
 
 # author = {Team HOMES},
 @inproceedings{hqe10,
-title = {HOMES - Optimum des performances de consommations réelles et des services des bâtiments (confort,
-         qualité de l'air intérieur, ergonomie, bien être)},
-url = {http://www.vizea.fr/actualites/programme-assises-hqe.pdf},
-booktitle = {7e Assises HQE (Poster), Dec. 2010, Avignon, France},
-year = {2010}
+  title = {HOMES - Optimum des performances de consommations réelles et des services des bâtiments (confort,
+           qualité de l'air intérieur, ergonomie, bien être)},
+  url = {http://www.vizea.fr/actualites/programme-assises-hqe.pdf},
+  booktitle = {7e Assises HQE (Poster)},
+  venue = {Avignon, France},
+  year = {2010},
+  month = {Dec},
 }
 
 @inproceedings{ffie11,
-title = {HOMES - Vers des solutions d’efficacité énergétique active accessibles à chaque bâtiment},
-booktitle = {Press conference at Fédération Française des Installateurs Electriciens (FFIE), Nov. 2011, Paris, France},
-year = {2011}
+  title = {HOMES - Vers des solutions d’efficacité énergétique active accessibles à chaque bâtiment},
+  booktitle = {Press conference at Fédération Française des Installateurs Electriciens (FFIE)},
+  venue = {Paris, France},
+  year = {2011},
+  month = {Nov},
 }
 
 @inproceedings{handi08,
-author = {Marié, Sylvain},
-title = {ITEA ANSO: L’ interopérabilité au service du handicap},
-booktitle = {Campagne Handivalides 2008, Université Lyon I, March 2008, Lyon, France},
-year = {2008}
+  author = {Marié, Sylvain},
+  title = {ITEA ANSO: L’ interopérabilité au service du handicap},
+  booktitle = {Campagne Handivalides 2008, Université Lyon I},
+  venue = {Lyon, France},
+  year = {2008},
+  month = {Mar},
 }
 
 # Standards
 
 @misc{osgirfc08,
-author = {Bottaro, André and Marié, Sylvain and Seyvoz, Stéphane and Simon, Eric and Gérodolle, Anne},
-title = {DPWS Device Service},
-type = {RFC},
-NUMBER = {Proposal, rejected for non-technical reasons},
-publisher = {OSGi™ Alliance},
-year = {2008},
-month = {January}
+  author = {Bottaro, André and Marié, Sylvain and Seyvoz, Stéphane and Simon, Eric and Gérodolle, Anne},
+  title = {DPWS Device Service},
+  type = {RFC},
+  NUMBER = {Proposal, rejected for non-technical reasons},
+  publisher = {OSGi™ Alliance},
+  year = {2008},
+  month = {Jan}
 }
 
 # institution = {OSGi™ Alliance},
 # howpublished = {Internet Requests for Comments},
 @techreport{osgirfp08,
-author = {Bottaro, André and Marié, Sylvain and Seyvoz, Stéphane and Simon, Eric and Gérodolle, Anne},
-title = {DPWS Discovery Base Driver},
-type = {RFP},
-NUMBER = {86},
-publisher = {OSGi™ Alliance},
-year = {2007},
-month = {May},
-url = {https://www.researchgate.net/publication/343610935_RFP_86_-_DPWS_Discovery_Base_Driver_for_OSGI},
+  author = {Bottaro, André and Marié, Sylvain and Seyvoz, Stéphane and Simon, Eric and Gérodolle, Anne},
+  title = {DPWS Discovery Base Driver},
+  type = {RFP},
+  NUMBER = {86},
+  publisher = {OSGi™ Alliance},
+  year = {2007},
+  month = {May},
+  url = {https://www.researchgate.net/publication/343610935_RFP_86_-_DPWS_Discovery_Base_Driver_for_OSGI},
 }
