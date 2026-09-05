@@ -13,6 +13,8 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 
 ### Journals
 
+1. @dib26
+  {: #dib26 }
 1. @aicrag26
   {: #aicrag26 }
 1. @ebllm
