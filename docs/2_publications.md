@@ -105,14 +105,13 @@ Most of these publications are also on [HAL](https://hal.science/search/index/?q
 
 ## Patents
 
-1. *Filed on 2024-11-08: 1011726.265us1 / 2024P00480 US03*
-1. *Filed on 2024-11-08: 1011726.252us1 / 2024P00480 US02*
-1. *Filed on 2024-11-08: 1011726.250us1 / 2024P00480 US01*
-
+1. @alarmai_dayweek_period_no_resampling
+1. @alarmai_dayweek_period
+1. @alarmai_repeat_period
+1. @alarmai_nuisance
 1. @tagai_class_assets
 1. @tagai_mass_eqpts
-2. @tagai_mass_pts
-1. @alarmai_nuisance
+1. @tagai_mass_pts
 1. @elecmonitor
 1. @icare
 1. @gridopt
